@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kozhikode </title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Style the body */
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+    
+    /* Header/logo Title */
+  .header {
+        height:100vh;
+      } 
+    
+    /* Style the top navigation bar */
+    .navbar {
+      display: flex;
+      background-color: rgb(3, 44, 121);
+      margin-top:-14.5%;
+    }
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+    
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Column container */
+    .row {  
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 35%;
+      background-color: #f1f1f1;
+      padding: 35px;
+      line-height:30px;
+    }
+    .side p{
+        margin-top:15%;
+    }
+    
+    /* Main column */
+    .main {
+      flex: 60%;
+      background-color: white;
+      padding: 50px; 
+      line-height:25px;
+    }
+    .main h2{
+      margin-top:-2%;
+      background-color: rgb(255, 153, 0);
+      text-align: center;
+      padding:3px;
+    }
+    .main h3{
+      text-align: center;
+    }
+    
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color:transparent;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+    }
+    .footer{
+      
+      width:100%;
+      background-color: rgb(3, 44, 121);
+      color:white;
+      padding-right: 3%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    
+    
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row, .navbar {   
+        flex-direction: column;
+      }
+      .navbar{
+          margin-top:-40%;
+      }
+      .footer{
+        width: 100%;
+        margin-bottom:15%;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+    
+    <!-- Header -->
+    <div class="header">
+      <img src="image\kozhikode.jpg"alt="kozhikode" width="100%" height="70%">
+    </div>
+    
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">HOME</a>
+      <a href="district.html">VISITING SPOTS</a>
+
+    </div>
+    
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+        <center><h1> KOZHIKODE </h1></center>
+        <div class="fakeimg" style="height:200px;"><img src="image\kozhikodeMAP.jpg" width="300" height="200" ></div>
+        <br>
+        <p> Kozhikode District was the capital of the erstwhile kingdom of the mighty Zamorins and once a renowned commercial center. Today Kozhikode is one of the best cities in Kerala. Endowed with lush green countrysides, serene beaches, historic sites, wildlife sanctuaries, rivers, and hills, this city enchants both its inhabitants and its guests. With its unique culture and friendly ambiance, Kozhikode is a wondrous destination for all. The city of Calicut, the Anglicized form of Kozhikode, is the headquarters of the district. The district of Kozhikode is 38.25% urban and is bordered by Kannur district to the North, Wayanad to the East, and Malappuram to the South. To the West, lies the mighty Arabian Sea. The district is situated between latitudes 11° 08’N and 11° 50’N and longitudes 75°30’E and 76°8’E. </P>  
+       </div>
+      <div class="main">
+        <h2>TOP DESTINATIONS</h2>
+        <h3> BEYPORE BEACH </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\beyporebeach.jpg" width="300" height="200"></div>
+        <br>
+        <p> Situated near the mouth of Chaliyar river, Beypore beach is a famous tourist destination. Your visit to Kozhikode remains incomplete without a day spent at Beypore beach. There is never a dearth of activities once you are at the beach. Clearly, one of the favourite tourist places to visit in Kozhikode, this beach takes into a different world with its numerous fun-filled activities to keep you engaged as it offers abundant water activities like surfing, sunbathing, water skiing and swimming.</p>
+       <h3> MANANCHIRA </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\mananchira.jpeg" width="300" height="200"></div>
+        <br>
+        <p>Previously known as Mananchira Maidan, this place held many football matches. Mananchira scores high as one of the places to visit in Kozhikode. This place provides tranquility to the visitors which is much sought after as one wants to escape the chaotic city life. It is a beautiful park covered with lawns, traditional buildings, a musical fountain, and an open-air theatre. This park is built around a man-made lake known as Mananchira lake.One must not forget to visit Mananchira or Mana Vikraman Tank which was the primary water source for the royal family and is maintained till date in its pristine beauty. Mananchira is the best place for an evening stroll or to enjoy a picnic with families and friends. This park is popular among tourists and locals because of its natural sculptures and natural beauty.  </p>
+        <h3>KOZHIKODE BEACH</h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\kozhikodebeach.jpeg" width="300" height="200"></div>
+        <br>
+        <p>Situated on the Malabar coast and endowed with natural beauty, Kozhikode beach should be a must in the itinerary of your visit to the city. This beach is renowned for the sunsets that tourists throng here to enjoy. Though the water is muddy and not suitable for swimming, still the stunning view of the Arabian Sea that the lighthouse offers more than compensates for the shortcoming.   </p>      
+        <br>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer" align="right">
+      <footer>website designed | ANEESHA M S</footer>
+    </div>
+  </body>
+</html>
+    
+
+
+    

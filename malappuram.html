@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Malappuram </title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Style the body */
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+    
+    /* Header/logo Title */
+  .header {
+        height:100vh;
+      } 
+    
+    /* Style the top navigation bar */
+    .navbar {
+      display: flex;
+      background-color: rgb(3, 44, 121);
+      margin-top:-14.5%;
+    }
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+    
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Column container */
+    .row {  
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 35%;
+      background-color: #f1f1f1;
+      padding: 35px;
+      line-height:30px;
+    }
+    .side p{
+        margin-top:15%;
+    }
+    
+    /* Main column */
+    .main {
+      flex: 60%;
+      background-color: white;
+      padding: 50px; 
+      line-height:25px;
+    }
+    .main h2{
+      margin-top:-2%;
+      background-color: rgb(255, 153, 0);
+      text-align: center;
+      padding:3px;
+    }
+    .main h3{
+      text-align: center;
+    }
+    
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color:transparent;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+    }
+    .footer{
+      
+      width:100%;
+      background-color: rgb(3, 44, 121);
+      color:white;
+      padding-right: 3%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    
+    
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row, .navbar {   
+        flex-direction: column;
+      }
+      .navbar{
+          margin-top:-40%;
+      }
+      .footer{
+        width: 100%;
+        margin-bottom:15%;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+    
+    <!-- Header -->
+    <div class="header">
+      <img src="image\malapuram.jpg"alt="malappuram" width="100%" height="70%">
+    </div>
+    
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">HOME</a>
+      <a href="district.html">VISITING SPOTS</a>
+    </div>
+    
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+        <center><h1> MALAPPURAM </h1></center>
+        <div class="fakeimg" style="height:200px;"><img src="image\malappurammap.png" width="300" height="200"></div>
+        <br>
+        <p>Malappuram District was formed on 16th of June 1969 with the Nilgiris of Tamilnadu in the east, Arabian sea in the west, Kozhikode and Wayanad Districts in the north and Palakkad and Thrissur District in the south. The District has a geographical area of 3550 sq. kms, which is 9.13% of total area of the state and ranks 3rd in the state. 
+        <br>Bounded by the Nilgiris hills on the East and the Arabian Sea on the west, the district of Malappuram literally the land atop the hills, is remarkable for its unique natural beauty. Perched among the undulating hills and the meandering rivers that flow to reach the coconut-fringed seacoast, the land conceals a unique and eventful history.
+        </P>  
+       </div>
+      <div class="main">
+        <h2>TOP DESTINATIONS</h2>
+        <h3> BHARATHAPUZHA RIVER </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\bharathapuzha.jpeg" width="300" height="200"> </div>
+        <br>
+        <p> The River of Bharata, also known as Nila, the Bharathapuzha River is a west-flowing river in the state of Kerala, and is the second longest river in the state. The river has been an integral part of life in the southern regions of Malabar. The name Nila has been given to the river to show the importance of it being more than just a river, as there are several mentions of the river in the ancient Hindu scriptures.   </p>
+        <h3> PAZHAYANGADI MOSQUE </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\pazhayangadi.jpeg" width="300" height="200"> </div>
+        <br>
+        <p> Associated with one of the most prominent saints of Islam who ever set foot in India, the Pazhayangadi Mosque is more than 500 years old. Known by its other name Kondotty Thangal, the mosque is constructed with a white dome and displays intricate carvings all throughout, giving it a resemblance to the Mughal Style of Architecture. Visited equally by devotees and tourists, the best and most vibrant time to visit this mosque is during the week long festival of Valiya Nercha in February or March. </p>
+        <h3>KODIKUTHIMALA</h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\kodikuthimala1.jpeg" width="300" height="200"> </div>
+        <br>
+        <p> Another attraction of Malappuram that is often compared to the famous town of Ooty, Kodikuthimala is definitely a sight for the sore eyes. A hill station of Kerala, the place is perched on a height of about 522 m above sea level, and is the highest point in the Amminikkadan hills. Once the spot where the Britishers once hoisted their flag, the spot was opened for tourism only a few decades ago, with a large area of the place marked already for future development projects. There is a watch tower on the top of the hill from where tourists can get a panoramic view.</p>      
+        <br>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer" align="right">
+      <footer>website designed | ANEESHA M S</footer>
+    </div>
+  </body>
+</html>
+    
+
+
+    

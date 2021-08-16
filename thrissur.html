@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Thrissur </title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Style the body */
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+    
+    /* Header/logo Title */
+  .header {
+        height:100vh;
+      } 
+    
+    /* Style the top navigation bar */
+    .navbar {
+      display: flex;
+      background-color: rgb(3, 44, 121);
+      margin-top:-14.5%;
+    }
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+    
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Column container */
+    .row {  
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 35%;
+      background-color: #f1f1f1;
+      padding: 35px;
+      line-height:30px;
+    }
+    .side p{
+        margin-top:15%;
+    }
+    
+    /* Main column */
+    .main {
+      flex: 60%;
+      background-color: white;
+      padding: 50px; 
+      line-height:25px;
+    }
+    .main h2{
+      margin-top:-2%;
+      background-color: rgb(255, 153, 0);
+      text-align: center;
+      padding:3px;
+    }
+    .main h3{
+      text-align: center;
+    }
+    
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color:transparent;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+    }
+    .footer{
+      
+      width:100%;
+      background-color: rgb(3, 44, 121);
+      color:white;
+      padding-right: 3%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    
+    
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row, .navbar {   
+        flex-direction: column;
+      }
+      .navbar{
+          margin-top:-40%;
+      }
+      .footer{
+        width: 100%;
+        margin-bottom:15%;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+    
+    <!-- Header -->
+    <div class="header">
+      <img src="image\thrissur.jpg"alt="thrissur" width="100%" height="70%">
+      </div>
+    
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">HOME</a>
+      <a href="district.html">VISITING SPOTS</a> 
+    </div>
+    
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+        <center><h1> THRISSUR </h1></center>
+        <div class="fakeimg" style="height:200px;"><img src="image\thrissurmap.jpg" width="300" height="200" ></div>
+        <p> The cultural capital of Kerala, the Poorams or temple festivals in Thrissur draw in thousands of people every single year as these carnivals encapsulate every single part of Kerala's rich heritage. These are a hotbed of folk art performances and heritage tours that will give you an in depth look into some of the grandest traditions of the State. From majestic elephants to colourful pulikali processions to the world renowned Thrissur Pooram, there is always a festive atmosphere in the air. The district is also the abode of several cultural centres like Kerala Kalamandalam, Sahitya Academy and the Sangeetha Nataka Academy. Thrissur is a place one must visit at least once in their lifetime. The people, swaying with the beats of the chenda, shall help you understand the true heart and spirit of Kerala. </p>
+        </div>
+      <div class="main">
+        <h2>TOP DESTINATIONS</h2>
+        <h3>ATHIRAPPILLY WATERFALLS </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\athirapally.jpg" width="300" height="200"></div>
+        <br>
+        <p>  On the outskirts of the city at a distance of some 60 km, the Athirappilly waterfalls mark one of the best places to visit in Thrissur. Standing 80 ft tall and about 330 ft wide, these falls are the largest in the state of Kerala.The majesty of this place can be understood by the fact that the falls are located on the Chalakudy River, that originates from the highest mountain in India outside of the Himalayas. A perfect place for a group outing, these falls are sometimes called the Niagra of India  </p>
+        <h3> VADAKKUNNATHAN TEMPLE </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\vadakkumnathatemple.jpg" width="300" height="200"></div>
+        <br>
+        <p> An ancient temple of Kerala, the Vadakkunnathan Temple is also the oldest temple of the state dedicated to Lord Shiva. Following the architectural style of Kerala, the temple has monumental towers surrounding it. Talking about the inside of the temple, there are several mural paintings that depict various episodes from the Hindu Epic, Mahabharata. Thekkinkadu Maidan, which surrounds the temple from all sides is where the local festival of Thrissur Pooram is organized every year, granting this place an even more of spiritual importance.  </p>
+        <h3> DOLOURS BASILICA </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\dolours.jpeg" width="300" height="200"></div>
+        <br>
+        <p> The Dolours Basilica, or the Basilica of Our Lady of Dolours (as the full name goes), is a distinct building in the city of Thrissur. You can easily recognize this grand church from its white face. Smack in the middle of a lush green valley, this basilica is known for narrating quite a number of stories of love and faith. Spread in an area of about 25,000 sq feet, Dolours Basilica is the third tallest church in Asia and the largest church in the country with double storeyed aisles. </p>
+        <br>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer" align="right">
+      <footer>website designed | ANEESHA M S</footer>
+    </div>
+  </body>
+</html>
+    
+
+
+    

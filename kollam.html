@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kollam</title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Style the body */
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+    
+    /* Header/logo Title */
+  .header {
+        height:100vh;
+    } 
+    
+    /* Style the top navigation bar */
+    .navbar {
+      display: flex;
+      background-color: rgb(3, 44, 121);
+      margin-top:-14.5%;
+    }
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+    
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Column container */
+    .row {  
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 35%;
+      background-color: #f1f1f1;
+      padding: 35px;
+      line-height:30px;
+    }
+    
+    /* Main column */
+    .main {
+      flex: 60%;
+      background-color: white;
+      padding: 50px; 
+      line-height:25px;
+    }
+    .main h2{
+      margin-top:-2%;
+      background-color: rgb(255, 153, 0);
+      text-align: center;
+      padding:3px;
+    }
+    .main h3{
+      text-align: center;
+    }
+    
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color:transparent;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+    }
+    .footer{
+      
+      width:100%;
+      background-color: rgb(3, 44, 121);
+      color:white;
+      padding-right: 3%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    
+    
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row, .navbar {   
+        flex-direction: column;
+      }
+      .navbar{
+          margin-top:-40%;
+      }
+      .footer{
+        width: 100%;
+        margin-bottom:15%;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+    
+    <!-- Header -->
+    <div class="header">
+      <img src="image\kollam.jpg"alt="kollam" width="100%" height="70%">
+    </div>
+    
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">HOME</a>
+      <a href="district.html">VISITING SPOTS</a>
+    </div>
+    
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+        <center><h1>KOLLAM</h1></center>
+        <div class="fakeimg" style="height:200px;"><img src="image\kollam1.jpeg" width="300" height="200"></div>
+        <br>
+        <p><b>Kollam </b>(erstwhile Quilon) is a southern district of Kerala, located 70 km north of the state’s capital Thiruvananthapuram. It is flanked by the Arabian sea on the west, Tamil Nadu on the east, Alapuzha and Pathanamthitta districts on the north and Thiruvananthapuram district on the south. Housing a population of over 2.6 million, Kollam is one of the more densely peopled districts of India. The head quarters of the district administration is centred at Kollam City, the district’s capital. Administratively, the district is composed of two revenue divisions viz. Kollam and Punalur with three taluks each under them.</p>
+        <p>The heart land of Kollam is naturally veined by the Ashtamudi lake, a massive, multi-branched water body, which is also a popular boating attraction for tourists. This and the Kollam canal cutting through the city give Kollam a place of prominence in the waterway systems of the country. A number of islands of varying sizes beautifully spot the vast expanse of the lake. The city is graced by beaches where people go to spend quiet evenings. Kollam also has a considerably large forest cover on its eastern side making home for several eco tourism projects like Shenduruni, Thenmala, Palaruvi etc.</p>
+      </div>
+      <div class="main">
+        <h2>TOP DESTINATIONS</h2>
+        <h3> JATAYU ADVENTURE CENTER</h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\jatayu.jpg" width="300" height="200"></div>
+        <br>
+        <p>Jatayu Adventure Center, at Chadayamangalam, 50 km from Trivandrum, Kerala, is a unique entrant in the tourism map of India. The destination is a masterpiece combination of artistry, mythology, technology, culture, adventure, leisure and wellness put together to give every visitor a spellbinding experience.
+            A complete feast to your eyes, the world’s largest bird sculpture is the recreation of Mr. Rajiv Anchal’s years of aspiration. To enhance the experience of the mythology get mesmerized at the virtual reality museum and the theatrical magic, rendering the story of the mythical bird Jatayu and its era.</p>
+        <h3>THENMALA </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\thenmala.jpg" width="300" height="200"></div>
+        <br>
+        <p>Thenmala is India’s first planned eco-tourism destination. Located in the foothills of the Western Ghats, in Kerala’s Kollam district, Thenmala is also a UNESCO World Heritage Site. A government-managed facility, this unique destination offers great opportunities for adventure and leisure, along with being one with nature.It’s an ideal spot for any and every type of vacation seeker and offers lush green forests, butterfly safaris, musical dancing fountains, and adventure activities such as trekking, hiking and night camping. Ecological tourism is the next step in responsible tourism and the Thenmala Eco Tourism area focusses on preserving, protecting and even improving the environment.</p>
+        <h3>PALARUVI WATERFALL</h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\palaruvi.jpg" width="300" height="200"></div>
+        <br>
+        <P>Palaruvi Waterfalls, which literally translates to ‘Stream of Milk’, comes down through rocks from a height of 300 feet. This has turned into a delightful picnic spot where one can enjoy a spectacular view uninterrupted. The rocky terrain one has to traverse before reaching it can be cumbersome but once these majestic waterfalls come into sight, any kind of fatigue disappears immediately. The cool water is frequented by those seeking a refreshing dip and it regularly attracts people in large numbers.</P>
+        <br>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer" align="right">
+      <footer>website designed | ANEESHA M S</footer>
+    </div>
+    </body>
+    </html>
+    
+        
+    
+
+
+    

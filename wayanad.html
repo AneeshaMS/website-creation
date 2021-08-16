@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Wayanad </title>
+    <style>
+    * {
+      box-sizing: border-box;
+      }
+    
+    /* Style the body */
+    body {
+      font-family: Arial;
+      margin: 0;
+      }
+    
+    /* Header/logo Title */
+  .header {
+        height:100vh;
+        } 
+    
+    /* Style the top navigation bar */
+    .navbar {
+      display: flex;
+      background-color: rgb(3, 44, 121);
+      margin-top:-14.5%;
+    }
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+    
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Column container */
+    .row {  
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 35%;
+      background-color: #f1f1f1;
+      padding: 35px;
+      line-height:30px;
+    }
+    
+
+    /* Main column */
+    .main {
+      flex: 60%;
+      background-color: white;
+      padding: 50px; 
+      line-height:25px;
+    }
+    .main h2{
+      margin-top:-2%;
+      background-color: rgb(255, 153, 0);
+      text-align: center;
+      padding:3px;
+    }
+    .main h3{
+      text-align: center;
+    }
+    
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color:transparent;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+    }
+    .footer{
+      width:100%;
+      background-color: rgb(3, 44, 121);
+      color:white;
+      padding-right: 3%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    
+    
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row, .navbar {   
+        flex-direction: column;
+      }
+      .navbar{
+          margin-top:-40%;
+      }
+      .footer{
+        width: 100%;
+        margin-bottom:15%;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+    
+    <!-- Header -->
+    <div class="header">
+      <img src="image\wayanad1.jpg"alt="Wayanad" width="100%" height="70%">
+    </div>
+    
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">HOME</a>
+      <a href="district.html">VISITING SPOTS</a>
+    </div>
+    
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+        <center><h1> WAYANAD</h1></center>
+        <div class="fakeimg" style="height:200px;"><img src="image\wayanad.webp" width="300" height="200"></div>
+        <br>
+        <p> Wayanad, the green paradise is nestled among the mountains of the Western Ghats, forming the border world of the greener part of Kerala. Clean and pristine, enchanting and hypnotizing, this land is filled with history and culture. Located at a distance of 76 km. from wayanadthe sea shores of Kozhikode, this verdant hill station is full of plantations, forests and wildlife. Wayanad hills are contiguous to Mudumalai in Tamil Nadu and Bandhipur in Karnataka, thus forming a vast land mass for the wild life to move about in their most natural abode.
+          Wayanad is unique in that it is situated in an elevated picturesque mountainous plateau in the Western Ghats. The vast stretches of mist - capped mountains, green meadows of valleys, white water springs, blue water lakes and wild forests express the splendid natural beauty of Wayanad. Its pretty image not withstanding, perhaps what the visitor finds most endearing about this quaint little hill station is its large tribal population of about fifty-strong tribes and their fascinating lifestyle. Travellers can stay at the tree top houses and mud huts and enjoy the thrills of jungle life. </p>
+      </div>
+      <div class="main">
+        <h2>TOP DESTINATIONS</h2>
+        <h3>SULTHAN BATHERY JAIN TEMPLE</h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\bathery.jpg" width="300" height="200"></div>
+        <br>
+        <p> It is generally known as Tippu's Fort and situated at Sulthan Bathery town. Tippu used this temple as the Battery of his army. According to the history, the Bathery Jain Temple was built 800 years ago. Earlier it was known as Kidangad Basti. This ancient structure first was a shrine, next became a commercial trade centre and at last served as the place to store the ammunition and battery of the army of Tipu Sultan.</p>
+        <h3> BANASURA DAM </h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\banasuradam.jpeg" width="300" height="200"></div>
+        <br>
+        <p> Banasura Dam wayanadImpounding the Karamanathodu tributary of Kabini River, the Banasura Dam supports the Kakkayam Hydro Electric power project. It is located 15 kilometers north west of Kalpetta town. This dam is named after Banasura, who is the son of Mahabali, a respected king of Kerala. The dam’s reservoir has a set of islands that was formed when the surrounding areas was submerged by the reservoir. With the Banasura hills in the backdrop, the islands are given the title of Asia’s Largest Earthen Resort by BBC. Speed and pedal boats are two options through which one can explore this area.</p>
+        <h3> LAKKIDI GHAT PASS</h3>
+        <div class="fakeimg" style="height:200px;"><img src="image\lakkidighat.jpg" width="300" height="200"></div>
+        <p> The gateway of Wayanad, Lakkidi is located on the top of the windy turns of the Thamaraserry ghat pass. The travel through the nine hairpin curves from Adivaram to Lakkidi, is a once in a lifetime experience. This road to Lakkidi is set at an elevation of 700 meters above sea level. Lakkidi has emerged as one of the popular destination for tourists. At the Lakkidi view point, one can get amazing views of the surrounding hills and valleys. Sights of thick forests, gorges, streams and plantations greet the visitors at Lakkidi.</p>
+         <br>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer" align="right">
+      <footer>website designed | ANEESHA M S</footer>
+    </div>
+  </body>
+</html>
+    
+
+
+    

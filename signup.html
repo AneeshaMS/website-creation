@@ -4,86 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp Page</title>
-    <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+      <!-- js file -->
+    <script defer src="signup.js"></script>
 </head>
-<body background="image\bg6.jpeg" class="bg w-100">
-    <!-- navbar -->
+<body >
+
+       <!-- navbar -->
     
     <nav class="navbar navbar-expand-lg navbar-light bg-darkblue fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><img src="image\logo.png" width=250px ></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item active">
-                <a style="color:aqua" class="nav-link " href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a style="color:aqua" class="nav-link" href="district.html">Visiting Spots</a>
-              </li>
-              <li class="nav-item" >
-                <a style="color:aqua" class="nav-link" href="login.html">Login</a>
-              </li>
-              <li class="nav-item">
-                <a style="color:aqua" class="nav-link" href="signup.html">Sign Up</a>
-              </li>
-             
-              
-          </div>
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="image\logo.png" width=250px ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a style="color:aqua" class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a style="color:aqua" class="nav-link" href="district.html">Visiting Spots</a>
+            </li>
+            <li class="nav-item" >
+              <a style="color:aqua"class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a style="color:aqua" class="nav-link" href="signup.html">Sign Up</a>
+            </li>
+            
+            
         </div>
-      </nav>
+      </div>
+    </nav>
+      <!-- navbar ends -->
 
       <!-- form -->
-      <section class="container-fluid">
-        <section class="row justify-content-center">
-          <section class="col-12 col-sm-6 col-md-3">
-            
-            <form class="signup-container"> 
-              <h4><center> Sign Up </center> </h4> 
-              <div class="form-group">
-                <label for="exampleInputName" class="form-label">UserName</label>
-                <input type="text" class="form-control" id="exampleInputName">
-                <div id="NameHelp" class="form-text">  </div>
-              </div>
 
-              <div class="form-group">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Enter Valid Email</div>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-                <div id="password" class="form-text">Must have 8 characters</div>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1" class="form-label"> confirm Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1"><p>Accept all <a href="#">Terms of Service</a> </p></label>
-              </div>
-              <center>
-                <button type="submit" class="btn btn-primary btn-block col-12">Sign Up</button>
-              </center>
-                                 
-              </form>
-          </section>
-        </section>
-      </section>
-      
-      
-      
+      <div class="wrapper">
+        <header>SignUp Form</header>
+        <form action="district.html">
+          <div class="field username">
+            <div class="input-area">
+              <input type="text" placeholder="username">
+              <i class="icon fas fa-user"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Username can't be blank</div>
+          </div>
+          <div class="field email">
+            <div class="input-area">
+              <input type="text" placeholder="Email Address">
+              <i class="icon fas fa-envelope"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Email can't be blank</div>
+          </div>
+          <div class="field phone">
+            <div class="input-area">
+              <input type="tel" placeholder="Phone number">
+              <i class="icon fas fa-phone"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Phone Number can't be blank</div>
+          </div>
+          <div class="field password">
+            <div class="input-area">
+              <input type="password" placeholder="Password" id="password">
+              <i class="icon fas fa-lock"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Password can't be blank</div>
+          </div>
+          <div class="field password2">
+            <div class="input-area">
+              <input type="password" placeholder="Confirm Password">
+              <i class="icon fas fa-lock"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Password can't be blank</div>
+          </div>
+          <div class="pw-strength">
+            <span>Weak</span>
+            <span></span>
+          </div>
+          <input type="submit" value="Signup">
+        </form>
+        <div class="sign-txt"><a href="login.html"> Already have an account? </a></div>
+      </div> 
+<!-- end of form -->
 
-    
-</body>
+      <!-- Footer -->
+    <div class="footer" align="right">
+      <footer>website designed | ANEESHA M S</footer>
+    </div>
+  </body>
 </html>
